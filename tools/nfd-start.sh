@@ -62,4 +62,4 @@ if [ -f @SYSCONFDIR@/ndn/autoconfig.conf ]; then
 fi
 
 sleep 2 # post-start is executed just after nfd process starts, but there is no guarantee
-sudo ndn-config-client
+ndn-config-client
